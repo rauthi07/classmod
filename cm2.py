@@ -1,5 +1,6 @@
 #Q1
-'''class Animal:
+class Animal:
+    gender=' '
     def __init__(self,name,place,sound):
          self.name=name
          self.place=place
@@ -13,14 +14,9 @@
     def display(self):
         print('name:{},place:{},sound:{}'.format(self.name, self.place, self.sound), end=' ')
 class Tiger(Animal):
-    def __init__(self,gender):
-        self.gender=gender
-    def gender(self):
-        return self.gender()
-    def display(self):
-        print('gender:{}',self.gender)
+    gender='male'
 T1=Tiger('tiger','gujrat','roar')
-T1.display()'''
+T1.display()
 
 #Q2 output
 '''A B
@@ -49,6 +45,7 @@ class Square(Shape):
             return self.length ** 2
 R1=Rectangle(10,20)
 print(R1.area())'''
+
 
 
 
